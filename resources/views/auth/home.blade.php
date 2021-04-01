@@ -26,8 +26,8 @@
                 <a class="btn btn-primary" href="https://github.com/dwijonarko/laravel-8-module" target="_blank" role="button">Github Source Code</a>
             </p>
 
-            <h2>Livewire counter implementation</h2>
-            <livewire:counter />
+            <h2>Livewire users implementation</h2>
+            <a href="/users">Livewire CRUD</a>
         </div>
     </div>
 @endsection

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Livewire\Counter;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,4 +20,4 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/home', [HomeController::class, 'index']);
 });
 
-Route::get('counter', Counter::class);
+Route::get('/users', [HomeController::class,'render_users']);

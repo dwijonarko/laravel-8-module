@@ -10,4 +10,8 @@ class HomeController extends Controller
     {
         return view('auth.home');
     }
+
+    public function render_users(){
+    	return view('layouts.users');
+    }
 }
