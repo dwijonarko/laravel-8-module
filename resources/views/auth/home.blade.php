@@ -20,10 +20,14 @@
                 <li>Email Verification</li>
                 <li>Forget Password</li>
                 <li>Reset Password</li>
+                <li>Livewire Implementatiion</li>
             </ul>
             <p class="lead">
-                <a class="btn btn-primary" href="" target="_blank" role="button">Github Source Code</a>
+                <a class="btn btn-primary" href="https://github.com/dwijonarko/laravel-8-module" target="_blank" role="button">Github Source Code</a>
             </p>
+
+            <h2>Livewire counter implementation</h2>
+            <livewire:counter />
         </div>
     </div>
 @endsection
