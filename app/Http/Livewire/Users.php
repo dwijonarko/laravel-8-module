@@ -32,6 +32,7 @@ class Users extends Component
         User::create($validatedData);
         session()->flash('message', 'Users Created Successfully.');
         $this->resetInputFields();
+        $this->emit('userStore');
     }
 
 
