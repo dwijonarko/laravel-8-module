@@ -4,6 +4,9 @@
 Laravel 8 implementation
 
 - Auth Using Fortify
+- Livewire
+    - CRUD USER
+    - Chain Dropdown using Laravolt/Indonesa
 - tba
 
 
