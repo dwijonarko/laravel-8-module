@@ -14,4 +14,9 @@ class HomeController extends Controller
     public function render_users(){
     	return view('layouts.users');
     }
+
+    public function render_dropdown()
+    {
+      return view('layouts.dropdown'); 
+    }
 }

@@ -21,3 +21,4 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 Route::get('/users', [HomeController::class,'render_users']);
+Route::get('/dropdown', [HomeController::class,'render_dropdown']);
