@@ -19,4 +19,8 @@ class HomeController extends Controller
     {
       return view('layouts.dropdown'); 
     }
+
+    public function render_subscriber(){
+      return view('layouts.subscribers');
+    }
 }
