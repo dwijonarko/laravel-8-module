@@ -7,6 +7,7 @@ Laravel 8 implementation
 - Livewire
     - CRUD USER
     - Chain Dropdown using Laravolt/Indonesa
+    - Datatable like view
 - tba
 
 
