@@ -3,11 +3,12 @@
 
 Laravel 8 implementation
 
-- Auth Using Fortify
+- Auth Using Fortify ( route: /login)
 - Livewire
-    - CRUD USER
-    - Chain Dropdown using Laravolt/Indonesa
-    - Datatable like view
+    - CRUD USER ( route: /users)
+    - Chain Dropdown using Laravolt/Indonesa ( route: /dropdown)
+    - Datatable like view ( route: /subscriber)
+- Export to Excel ( route: /subscriber/export)
 - tba
 
 

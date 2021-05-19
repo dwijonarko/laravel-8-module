@@ -23,3 +23,4 @@ Route::middleware(['auth', 'verified'])->group(function () {
 Route::get('/users', [HomeController::class,'render_users']);
 Route::get('/dropdown', [HomeController::class,'render_dropdown']);
 Route::get('/subscriber', [HomeController::class,'render_subscriber']);
+Route::get('/subscriber/export',[HomeController::class,'export_subscriber']);
